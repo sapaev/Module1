@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4c254a4-3cb5-4965-84ba-74f3907058de" name="Changes" comment="Synhron">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Task1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Task3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -34,8 +44,10 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2BoQ5XRp1FqZ5bZghl2Y28zFgnn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2AwtAponzYS2PBaqgBtxqBuS0wg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,13 +56,32 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Module1.Task1">
-    <configuration name="Module1.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Module1.Task1" />
-      <module name="Module1" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qasap\IdeaProjects\JavaNix\src\main\java\Lesson4" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Module1.Task2" />
+      <recent name="Module1" />
+      <recent name="Lesson3" />
+      <recent name="Lesson4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Task4">
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Module1.Task3" />
+      <module name="JavaNix" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Module1.*" />
@@ -61,51 +92,257 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1" />
-      <module name="Module1" />
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Module1.Task4" />
+      <module name="JavaNix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Module1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Module1.Task2.main" />
+      <module name="JavaNix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Module1.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaNix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Module1.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Module1.Task2" />
+      <option name="MAIN_CLASS_NAME" value="Module1.Task2.KnightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaNix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Module1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Module1" />
+      <option name="MAIN_CLASS_NAME" value="Module1.Task3Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Module1.Task1" />
-        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="JUnit.KnightTest" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.Task3Test" />
+        <item itemvalue="Application.Task3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b4c254a4-3cb5-4965-84ba-74f3907058de" name="Changes" comment="" />
-      <created>1657569776697</created>
+      <changelist id="0f939a32-519a-4e48-9722-4644b699d87c" name="Changes" comment="" />
+      <created>1655932336455</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657569776697</updated>
+      <updated>1655932336455</updated>
     </task>
     <task id="LOCAL-00001" summary="Synhron">
-      <created>1657569895176</created>
+      <created>1655932644913</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1657569895176</updated>
+      <updated>1655932644913</updated>
     </task>
     <task id="LOCAL-00002" summary="Synhron">
-      <created>1657570184545</created>
+      <created>1655932740678</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1657570184545</updated>
+      <updated>1655932740678</updated>
     </task>
     <task id="LOCAL-00003" summary="Synhron">
-      <created>1657570248134</created>
+      <created>1655933136337</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1657570248134</updated>
+      <updated>1655933136337</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Synhron">
+      <created>1656581514829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656581514829</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Synhron">
+      <created>1656581593495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656581593495</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Synhron">
+      <created>1656581669865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656581669865</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Synhron">
+      <created>1656581735608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656581735608</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Synhron">
+      <created>1656581838244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656581838244</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Synhron">
+      <created>1656584976256</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656584976256</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Synhron">
+      <created>1656593177175</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656593177175</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Synhron">
+      <created>1656757638449</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656757638449</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Synhron">
+      <created>1656846776664</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656846776664</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Synhron">
+      <created>1656883161031</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656883161031</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Synhron">
+      <created>1656883184075</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656883184075</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Synhron">
+      <created>1656883240142</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656883240142</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Synhron">
+      <created>1656884855933</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656884855933</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Synhron">
+      <created>1657198753952</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657198753952</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Synhron">
+      <created>1657463088609</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657463088609</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Synhron">
+      <created>1657481053214</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657481053214</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Synhron">
+      <created>1657481097526</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1657481097526</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Synhron">
+      <created>1657486562008</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1657486562008</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Synhron">
+      <created>1657486579542</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657486579542</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Synhron">
+      <created>1657486853897</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1657486853897</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Synhron">
+      <created>1657569644317</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1657569644317</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Synhron">
+      <created>1657569665259</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1657569665259</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
