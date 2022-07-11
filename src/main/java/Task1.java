@@ -8,7 +8,6 @@ public class Task1 {
 
             }
 
-
             static int uniqueCount(int[] array) {
                 int result = 0;
                 int countUnique = 0;
