@@ -1,14 +1,12 @@
+package Task2;
 
-
-import Task2.Cell;
-import Task2.Knight;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class KnightTest {
+class KnightTest1 {
     private static Knight knight;
 
     @Test
@@ -25,6 +23,4 @@ class KnightTest {
         Cell cell = new Cell(1, 7);
         knight = new Knight(cell);
     }
-
 }
-

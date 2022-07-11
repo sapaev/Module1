@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4c254a4-3cb5-4965-84ba-74f3907058de" name="Changes" comment="Synhron">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b4c254a4-3cb5-4965-84ba-74f3907058de" name="Changes" comment="Synhron" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +150,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0f939a32-519a-4e48-9722-4644b699d87c" name="Changes" comment="" />
+      <changelist id="b4c254a4-3cb5-4965-84ba-74f3907058de" name="Changes" comment="Synhron" />
       <created>1655932336455</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -342,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657569665259</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Synhron">
+      <created>1657571587492</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1657571587492</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
