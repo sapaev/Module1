@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4c254a4-3cb5-4965-84ba-74f3907058de" name="Changes" comment="Synhron" />
+    <list default="true" id="b4c254a4-3cb5-4965-84ba-74f3907058de" name="Changes" comment="Synhron">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task4/Bracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task4/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task4/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Task4/Task4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task4.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -61,19 +69,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Task4" />
+      <recent name="Task2" />
       <recent name="Module1.Task2" />
       <recent name="Module1" />
       <recent name="Lesson3" />
-      <recent name="Lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task4">
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Module1.Task3" />
-      <module name="JavaNix" />
+  <component name="RunManager" selected="JUnit.Task4Test">
+    <configuration name="Level" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.Level" />
+      <module name="Module1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Module1.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,16 +131,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaNix" />
+    <configuration name="Task4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Module1.*" />
+          <option name="PATTERN" value="Task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Module1" />
-      <option name="MAIN_CLASS_NAME" value="Module1.Task3Test" />
+      <option name="PACKAGE_NAME" value="Task4" />
+      <option name="MAIN_CLASS_NAME" value="Task4.Task4Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task4Test" />
+        <item itemvalue="Application.Level" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="JUnit.KnightTest" />
         <item itemvalue="Application.main" />
-        <item itemvalue="JUnit.Task3Test" />
-        <item itemvalue="Application.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657571587492</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Synhron">
+      <created>1657571929060</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1657571929060</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
