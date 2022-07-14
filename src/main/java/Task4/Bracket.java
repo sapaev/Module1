@@ -4,6 +4,7 @@ public enum Bracket {
     ROUND('(', ')'), SQUARE('[', ']'), BRACES('{', '}');
 
     private char signOpen;
+
     private char signClose;
 
     Bracket(char signOpen, char signClose) {
